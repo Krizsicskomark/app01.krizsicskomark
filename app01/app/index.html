@@ -1,0 +1,56 @@
+<!--
+File: index.html
+Author: Krizsicskó Márk
+Copyright: 2024, Krizsicskó Márk
+Group: Szoft I-1-N
+Date: 2024-05-30
+Github: https://github.com/krizsicskomark/
+Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellipszoid</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Ellipszoid</h1>
+      <div class="form">
+        <div class="input">
+          <label for="axisa" class="form-label">A Tengely</label>
+          <input type="text" class="form-control"
+          id="axisa">
+        </div>
+      <div class="form">
+        <div class="input">
+          <label for="axisb" class="form-label">B Tengely</label>
+          <input type="text" class="form-control"
+          id="axisb">
+        </div>
+      <div class="form">
+        <div class="input">
+          <label for="axisc" class="form-label">C Tengely</label>
+          <input type="text" class="form-control"
+          id="axisc">
+        </div>
+
+        <div>
+          <button class="btn btn-primary mt-2"
+          id="calcButton">Számít</button>
+        </div>
+        <div class="input">
+          <label for="volume" class="form-label">Kerület</label>
+          <input type="text" class="form-control"
+          id="volume">
+        </div>
+
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
